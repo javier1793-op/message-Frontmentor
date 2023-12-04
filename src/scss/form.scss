@@ -1,0 +1,38 @@
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+label{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+input{
+    list-style: none;
+    text-decoration: none;
+    padding: .7rem;
+    border: 1px solid var(--gray-main);
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+input:focus{
+    border-color: var(--dark-gray);
+    border: 2px solid;
+}
+button{
+    text-align: center;
+    color: var(--white-main);
+    font-weight: 700;
+    background: var(--dark-gray);
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background: rgba(255, 98, 87, 1.0);
+    background: linear-gradient(135deg, rgba(255, 98, 87, 1.0), rgba(244, 190, 132, 1.0));
+}

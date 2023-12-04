@@ -1,0 +1,40 @@
+#root{
+  --dark-gray:hsl(234, 29%, 20%);
+  --Charcoal-Grey:hsl(235, 18%, 26%);
+  --gray-main:hsl(231, 7%, 60%);
+  --white-main:hsl(0, 0%, 100%);
+  --Tomato-main: hsl(4, 100%, 67%);
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  min-width: 100vw;
+  min-height: 100vh;
+  background: var(--Charcoal-Grey);
+}
+
+.contentMain{
+  background: var(--white-main);
+  width: 55vw;
+  height: 75vh;
+  border-radius: 20px;
+  display: grid; 
+  grid-template-columns: 55% 45%;
+  grid-template-rows: 100%; 
+  grid-template-areas: 
+   'info  img'
+}
+
+.information{
+  grid-area: info;
+  width: 100%;
+  height: 100%;
+}
+.phoneFront{
+  grid-area: img;
+  width: 100%;
+  height: 100%;
+}
