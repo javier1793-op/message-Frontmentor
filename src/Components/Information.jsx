@@ -2,7 +2,7 @@ import "../scss/information.scss";
 import Form from "./Form";
 import Item from "./Item";
 
-const Information = () => {
+const Information = ({ setConfirm }) => {
   const list = [
     {
       id: 1,
@@ -29,7 +29,9 @@ const Information = () => {
             text={item.text}
           />
         ))}
-        <Form/>
+        <Form 
+          setConfirm={setConfirm}
+        />
       </div>
     </>
   );

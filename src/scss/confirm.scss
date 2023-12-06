@@ -1,0 +1,21 @@
+.contentConfirm{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    height: 65vh;
+    border-radius: 20px;
+    background: var(--white-main);
+    padding: 3rem;
+    gap: 1rem;
+    font-size: 16px;
+}
+.contentConfirm .iconSuccess{
+    width: 3rem;
+    height: 3rem;
+}
+.contentConfirm h1{
+    font-size: 3rem;
+}
+.contentConfirm p{
+    line-height: 1.5;
+}

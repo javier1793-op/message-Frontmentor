@@ -3,13 +3,20 @@ form{
     flex-direction: column;
     gap: 1rem;
 }
-
+.labelBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 label{
     font-size: 14px;
     font-weight: 700;
 }
 
+.labelError{
+    color: var(--Tomato-main);
+}
 input{
     list-style: none;
     text-decoration: none;
@@ -22,6 +29,11 @@ input{
 input:focus{
     border-color: var(--dark-gray);
     border: 2px solid;
+}
+input.error{
+    border: 2px solid;
+    border-color: var(--Tomato-main);
+    color: var(--Tomato-main);
 }
 button{
     text-align: center;
