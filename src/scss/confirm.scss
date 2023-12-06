@@ -19,3 +19,18 @@
 .contentConfirm p{
     line-height: 1.5;
 }
+
+@media (max-width: 375px) {
+    .contentConfirm{
+       
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0px;
+    }
+    .contentConfirm button{
+        position: absolute;
+        bottom: 0;
+        width: 77%;
+        margin-bottom: 1rem;
+    }
+  }

@@ -1,6 +1,7 @@
 import "../scss/information.scss";
 import Form from "./Form";
 import Item from "./Item";
+import Mobile from '../img/illustration-mobile.svg'
 
 const Information = ({ setConfirm }) => {
   const list = [
@@ -20,6 +21,7 @@ const Information = ({ setConfirm }) => {
 
   return (
     <>
+        <img src={Mobile} alt="illustratorMobile" className="mobileImg"/>
       <div className="contentInformation">
         <h1>Stay Updated!</h1>
         <p>Join 60,000+ product managers receiving monthly updates on:</p>
