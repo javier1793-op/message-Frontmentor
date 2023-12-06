@@ -8,7 +8,7 @@
 ### Links
 
 - Solution URL: [GIT](https://github.com/javier1793-op/message-Frontmentor)
-- Live Site URL: [PAGE](https://javier1793-op.github.io/news-homepage/)
+- Live Site URL: [PAGE](https://javier1793-op.github.io/message-Frontmentor//)
 
 ## My process
 
